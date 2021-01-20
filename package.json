@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-onboarding",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "OnBoarding component with animation",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/elie-chaaban/react-native-animated-onboarding/issues"
   },
-  "homepage": "https://github.com/elie-chaaban/react-native-animated-onboarding#readme"
+  "homepage": "https://github.com/elie-chaaban/react-native-animated-onboarding#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
