@@ -1,0 +1,29 @@
+{
+  "name": "react-native-animated-onboarding",
+  "version": "1.0.0",
+  "description": "OnBoarding component with animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elie-chaaban/react-native-animated-onboarding.git"
+  },
+  "keywords": [
+    "react-native",
+    "onboarding",
+    "animation",
+    "onboarding",
+    "animate",
+    "onboarding",
+    "apptour",
+    "producttour"
+  ],
+  "author": "Elie Chaaban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elie-chaaban/react-native-animated-onboarding/issues"
+  },
+  "homepage": "https://github.com/elie-chaaban/react-native-animated-onboarding#readme"
+}
