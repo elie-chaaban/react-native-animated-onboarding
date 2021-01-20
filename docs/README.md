@@ -1,15 +1,11 @@
 # React Native Onboarding Animate
 React native component for onboarding processes with animation
 
-## Demo
-
-[Onboarding Animation Expo's snack](https://snack.expo.io/@hieunc/on-boarding-animation)
-
 ## Install
 
-Install `react-native-onboarding-animate` package and save into `package.json`:
+Install `react-native-animated-onboarding` package and save into `package.json`:
 ```ssh
-$ npm install react-native-onboarding-animate --save
+$ npm install react-native-animated-onboarding --save
 ```
 
 ## How to use?
@@ -17,7 +13,7 @@ $ npm install react-native-onboarding-animate --save
 ```javascript
 import React, { Component } from 'react';
 
-import OnboardingAnimate from 'react-native-onboarding-animate';
+import OnboardingAnimate from 'react-native-animated-onboarding';
 import {
   FirstScene,
   SecondScene,
@@ -50,20 +46,6 @@ export default class App extends Component {
 }
 
 ```
-
-### animatedValue
-
-Each of scence will be injected in `this.props` with an `animatedValue` with `inputRange = [0, windowWidth]`. This can be used for any animation within the scence by using interpolate. For example:
-
-```javascript
-    var animateValue = this.props.animatedValue.interpolate({
-        inputRange: [0, windowWidth],
-        outputRange: [0, 10]
-    })
-```
-
-(Please see actual code in the Expo example, file `./ExampleScenes/FirstScene.js` line `19` )
-
 ## Properties
 
 | Name | Type | Default Value | Definition |
@@ -80,7 +62,3 @@ Each of scence will be injected in `this.props` with an `animatedValue` with `in
 | ---- | ---- | ------------- | ---------- |
 | animatedValue | interpolate value of Animated.Value | inputRange: [0, windowWidth] | an animated value, use for animation within a page by using `this.props.animatedValue.interpolate`
 
-## Todo
-
-- Test on android
-- Create tests
